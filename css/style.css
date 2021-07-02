@@ -1,0 +1,184 @@
+/* Manu Bar Css */
+body {
+    background-color: seashell;
+}
+.white{
+    color: #fff;
+}
+
+.navbar {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    width           : 100%;
+    background-color: rgb(105, 131, 216);
+}
+
+.navbar ul {
+    list-style     : none;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    padding        : 10px 0px;
+    margin         : 10px 0px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding        : 10px 15px;
+    margin         : 10px 0px;
+
+    color      : #fff;
+    font-weight: bolder;
+}
+
+.navbar ul li a:hover {
+    background-color: blueviolet;
+    border          : 0.5px solid red;
+    border-radius   : 3px;
+
+}
+
+.navbar img {
+    width : 57px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+/* Registration Page Css */
+#home::before {
+    content   : '';
+    width     : 100%;
+    height    : 78%;
+    position  : absolute;
+    background: url(../img/bc.jpg)no-repeat center center/cover;
+    opacity   : 1;
+    z-index   : -1;
+}
+#reg::before {
+    content   : '';
+    width     : 100%;
+    height    : 78%;
+    position  : absolute;
+    background: url(../img/reg.jpg)no-repeat center center/cover;
+    opacity   : 1;
+    z-index   : -1;
+}
+
+#form-group,
+h1 {
+    width         : 100%;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+input,
+select {
+    width        : 40%;
+    padding      : 8px;
+    margin       : 5px;
+    outline      : none;
+    border       : 2px solid rgb(124, 102, 94);
+    border-radius: 5px;
+}
+
+button {
+    padding         : 10px;
+    margin          : 15px 0px;
+    background-color: pink;
+    font-weight     : bolder;
+    font-size       : medium;
+    cursor          : pointer;
+}
+
+/* Footer  */
+#footer {
+    display         : flex;
+    justify-content : center;
+    background-color: yellow;
+}
+
+
+
+/* Login Page */
+#log::before {
+    content   : '';
+    width     : 100%;
+    height    : 78%;
+    position  : absolute;
+    background: url(../img/log.jpg)no-repeat center center/cover;
+    opacity   : 1;
+    z-index   : -1;
+}
+
+.log,
+h1 {
+    padding-top   : 50px;
+    width         : 100%;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    font-size     : xx-large;
+}
+
+
+/* Contact Page  */
+.box {
+
+    width              : 100%;
+    height             : 78%;
+    /* background-color: rgb(255, 16, 16); */
+}
+
+.card {
+    display        : flex;
+    justify-content: center;
+    padding        : 0px 1px 10px 0px;
+}
+
+.card-1 {
+    width          : 450px;
+    height         : 361px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    font-weight    : bolder;
+    font-size      : 1.5rem;
+    color: rgb(230, 235, 252);
+    
+}
+
+#contact::before {
+    content   : '';
+    width     : 100%;
+    height    : 78%;
+    position  : absolute;
+    background: url(../img/contact.jpg)no-repeat center center/cover;
+    opacity   : .9;
+    z-index   : -1;
+    
+}
+
+.con{
+    color: rgb(92, 89, 89);
+}
+
+/* About Page  */
+
+#contact::before {
+    content   : '';
+    width     : 100%;
+    height    : 78%;
+    position  : absolute;
+    background: url(../img/about.jpg)no-repeat center center/cover;
+    opacity   : .9;
+    z-index   : -1;
+    
+}
